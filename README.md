@@ -18,7 +18,7 @@ The interface to the checkout could look like:
 ```java
 interface Checkout
 {
-    void scan(string sku);
+    void scan(String sku);
     int getTotalPrice();
 }
 ```
