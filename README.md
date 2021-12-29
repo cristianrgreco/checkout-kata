@@ -16,9 +16,11 @@ The checkout accepts items in any order.
 The interface to the checkout could look like:
 
 ```java
+import java.util.List;
+
 interface Checkout
 {
-    void scan(String sku);
+    void scan(List<String> sku);
     int getTotalPrice();
 }
 ```
