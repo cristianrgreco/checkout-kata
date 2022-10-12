@@ -20,7 +20,7 @@ import java.util.List;
 
 interface Checkout
 {
-    void scan(List<String> sku);
+    void scan(List<String> skus);
     int getTotalPrice();
 }
 ```
